@@ -176,13 +176,29 @@
       <!-- WELCOME -->
       <section id="welcome" class="screen active center" aria-label="Welcome">
         <h1>Welcome!</h1>
-        <p class="lead">Help us recycle batteries safely and sustainably.</p>
+        <p class="lead" 
+        style="max-width:60ch;
+          margin:10px auto 0;
+          font-size:18px;
+          line-height:1.6;
+          color:#2d4a3f;
+          text-align:center;">Join our mission to make battery recycling safer and smarter!</p>
         <button class="big-btn" id="startBtn">Start Recycling</button>
-        <p class="tiny">ENGR90051 Group:3-J</p>
-        <p class="lead" style="max-width:60ch;margin:6px auto 0;">
-          Proper battery recycling prevents fires, protects workers, and keeps toxic metals out of soil and water.
-          Please follow the prompts and recycle responsibly.
-        </p>
+        
+        <p class="lead" 
+          style="max-width:60ch;
+          margin:10px auto 0;
+          font-size:16px;
+          line-height:1.6;
+          
+          text-align:center;">
+          Every small action counts — by recycling your batteries properly. <br>
+          You help prevent fires, protect our community,
+          and keep harmful metals out of the environment.
+          </p>
+          <p style="text-align:center; color:#0f7f4c; font-size:19px; font-weight:bold;">
+            Together, we can power a cleaner future.
+          </p>
       </section>
 
       <!-- DETECTING -->
@@ -234,19 +250,32 @@
         </div>
       </section>
 
+      
       <!-- COMPLETION -->
       <section id="done" class="screen center" hidden aria-label="Completed">
-        <h1>Great job!</h1>
-        <p class="lead" style="max-width:60ch;margin:0 auto 10px;">
-          Thank you for your contribution to safer e‑waste handling. By recycling batteries properly, we reduce fire risks and prevent toxic metals from entering our environment.
+        <h1 style="font-size:2.2rem; font-weight:800; color:#023047; margin-bottom:14px;">
+          Great job!
+        </h1>
+      
+        <p class="lead" style="max-width:60ch; margin:0 auto 10px; line-height:1.6; font-size:1.05rem;">
+          Thank you for your contribution to safer e-waste handling. <br>
+          By recycling batteries properly, we reduce fire risks <br>
+          and prevent toxic metals from entering our environment.
         </p>
-        <p class="lead" style="max-width:60ch;margin:0 auto 18px;">
-          So far today, this collection point has safely processed <strong><span id="countFinal">0</span></strong> batteries. Every single one helps.
+      
+        <p class="lead" style="max-width:60ch; margin:10px auto 20px; line-height:1.6; font-size:1.05rem;">
+          So far today, this collection point has safely processed
+          <strong style="color:#0f7f4c;"><span id="countFinal">0</span></strong> batteries. <br>
+          <strong style="color:#0f367f;">Every single one helps.</strong>
         </p>
-        <div class="row">
-          <button class="ghost-btn" id="backHome">Back to Start</button>
+      
+        <div class="row" style="margin-top:22px;">
+          <button class="ghost-btn" id="backHome" style="background:#e9fbf4; color:#0f7f4c; font-weight:600;">
+            Back to Start
+          </button>
         </div>
       </section>
+
 
       <!-- RESCAN HELP -->
       <section id="rescan" class="screen center" hidden aria-label="Rescan Help">
@@ -260,7 +289,8 @@
     </main>
 
     <footer>
-      Designed for a friendly, eco‑focused demo • Rounded UI • Soft animations
+      Designed for the City of Melbourne e-waste management initiative. <br> 
+      Developed by ENGR90051 Group 3-J.
     </footer>
   </div>
 
